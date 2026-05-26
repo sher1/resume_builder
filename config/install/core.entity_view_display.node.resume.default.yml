@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.resume.field_work_history
+    - node.type.resume
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+id: node.resume.default
+targetEntityType: node
+bundle: resume
+mode: default
+content:
+  field_work_history:
+    type: entity_reference_revisions_entity_view
+    weight: 0
+    label: hidden
+    region: content
+    settings: { }
+    third_party_settings: { }
+hidden: {}
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+  layout_builder_restrictions:
+    allowed_layouts:
+      - layout_onecol
+      - layout_twocol_section

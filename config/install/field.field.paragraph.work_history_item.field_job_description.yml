@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_job_description
+    - paragraphs.paragraphs_type.work_history_item
+  module:
+    - text
+id: paragraph.work_history_item.field_job_description
+field_name: field_job_description
+entity_type: paragraph
+bundle: work_history_item
+label: 'Job Description & Duties'
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ''
+settings: {} # FIX
+field_type: text_long

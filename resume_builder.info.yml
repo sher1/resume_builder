@@ -1,0 +1,13 @@
+name: 'Resume Builder Layout System'
+type: module
+description: 'Provides a structured Resume content type utilizing Paragraph groups and Layout Builder templates.'
+package: Custom
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:layout_builder
+  - drupal:layout_discovery
+  - drupal:datetime_range
+  - drupal:options
+  - drupal:text
+  - paragraphs:paragraphs
+  - layout_builder_restrictions:layout_builder_restrictions

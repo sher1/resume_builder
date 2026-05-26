@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_skills
+    - node.type.resume
+id: node.resume.field_skills
+field_name: field_skills
+entity_type: node
+bundle: resume
+label: 'Core Competencies & Skills'
+description: 'Add primary technological skills, tools, or hard qualifications (e.g., Drupal, PHP, Tailwind CSS).'
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ''
+settings: {} # FIX: Added explicitly
+field_type: string

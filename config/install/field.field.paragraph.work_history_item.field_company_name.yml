@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_company_name
+    - paragraphs.paragraphs_type.work_history_item
+id: paragraph.work_history_item.field_company_name
+field_name: field_company_name
+entity_type: paragraph
+bundle: work_history_item
+label: 'Company or Organization Name'
+required: true
+translatable: false
+default_value: {}
+default_value_callback: ''
+settings: {} # FIX
+field_type: string

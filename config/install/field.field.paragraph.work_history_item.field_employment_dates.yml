@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_employment_dates
+    - paragraphs.paragraphs_type.work_history_item
+  module:
+    - datetime_range
+id: paragraph.work_history_item.field_employment_dates
+field_name: field_employment_dates
+entity_type: paragraph
+bundle: work_history_item
+label: 'Employment Dates'
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ''
+settings:
+  datetime_type: date # Keep module specific settings intact
+field_type: daterange

@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_job_description
+field_name: field_job_description
+entity_type: paragraph
+type: text_long
+settings: {} # FIX: Added explicitly
+module: text
+cardinality: 1
+translatable: false
+locked: false

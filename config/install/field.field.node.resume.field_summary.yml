@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.resume
+  module:
+    - text
+id: node.resume.field_summary
+field_name: field_summary
+entity_type: node
+bundle: resume
+label: 'Professional Summary'
+description: 'Enter a brief elevator pitch summarizing your career objectives and high-level qualifications.'
+required: false
+translatable: false
+default_value: {}
+default_value_callback: ''
+settings: {} # FIX: Added explicitly
+field_type: text_long

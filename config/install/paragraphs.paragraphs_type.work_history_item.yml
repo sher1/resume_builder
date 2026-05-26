@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {}
+id: work_history_item
+label: 'Work History Item'
+icon_uuid: null
+description: 'A paired grouping containing company names, date boundaries, and job tasks.'
+behavior_plugins: {}

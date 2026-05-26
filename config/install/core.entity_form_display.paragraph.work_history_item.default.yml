@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.work_history_item.field_company_name
+    - field.field.paragraph.work_history_item.field_employment_dates
+    - field.field.paragraph.work_history_item.field_job_description
+id: paragraph.work_history_item.default
+targetEntityType: paragraph
+bundle: work_history_item
+mode: default
+content:
+  field_company_name:
+    type: string_textfield
+    weight: 0
+    settings: { }
+    third_party_settings: { }
+  field_employment_dates:
+    type: daterange_default
+    weight: 1
+    settings: { }
+    third_party_settings: { }
+  field_job_description:
+    type: text_textarea
+    weight: 2
+    settings: { }
+    third_party_settings: { }
+hidden: {}

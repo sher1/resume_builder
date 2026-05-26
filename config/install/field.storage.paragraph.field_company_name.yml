@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_company_name
+field_name: field_company_name
+entity_type: paragraph
+type: string
+settings: {} # FIX: Added explicitly
+module: core
+cardinality: 1
+translatable: false
+locked: false

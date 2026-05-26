@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_work_history
+    - node.type.resume
+  module:
+    - entity_reference_revisions
+id: node.resume.field_work_history
+field_name: field_work_history
+entity_type: node
+bundle: resume
+label: 'Work History & Experience'
+description: 'Add your professional timeline milestones here.'
+required: false
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      work_history_item: work_history_item
+    negate: 0
+    target_bundles_drag_drop:
+      work_history_item:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

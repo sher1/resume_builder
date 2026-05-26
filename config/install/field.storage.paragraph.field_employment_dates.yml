@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime_range
+    - paragraphs
+id: paragraph.field_employment_dates
+field_name: field_employment_dates
+entity_type: paragraph
+type: daterange
+settings: {} # FIX: Added explicitly
+module: datetime_range
+cardinality: 1
+translatable: false
+locked: false

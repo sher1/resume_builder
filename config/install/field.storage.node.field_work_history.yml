@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_work_history
+field_name: field_work_history
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph # Retain target_type here
+module: entity_reference_revisions
+cardinality: -1
+translatable: false
+locked: false
