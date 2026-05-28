@@ -4,6 +4,9 @@ dependencies:
   module:
     - layout_builder
     - node
+  enforced:
+    module:
+      - resume_builder
 id: node.layout_builder__layout
 field_name: layout_builder__layout
 entity_type: node

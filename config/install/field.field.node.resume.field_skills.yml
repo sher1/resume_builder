@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_skills
     - node.type.resume
+  enforced:
+    module:
+      - resume_builder
 id: node.resume.field_skills
 field_name: field_skills
 entity_type: node

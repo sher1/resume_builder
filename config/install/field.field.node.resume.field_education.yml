@@ -6,6 +6,9 @@ dependencies:
     - node.type.resume
   module:
     - text
+  enforced:
+    module:
+      - resume_builder
 id: node.resume.field_education
 field_name: field_education
 entity_type: node

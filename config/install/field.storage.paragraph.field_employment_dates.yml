@@ -4,6 +4,9 @@ dependencies:
   module:
     - datetime_range
     - paragraphs
+  enforced:
+    module:
+      - resume_builder
 id: paragraph.field_employment_dates
 field_name: field_employment_dates
 entity_type: paragraph

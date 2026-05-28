@@ -6,6 +6,9 @@ dependencies:
     - node.type.resume
   module:
     - entity_reference_revisions
+  enforced:
+    module:
+      - resume_builder
 id: node.resume.field_work_history
 field_name: field_work_history
 entity_type: node

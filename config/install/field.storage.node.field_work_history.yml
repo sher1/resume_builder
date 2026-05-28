@@ -5,6 +5,9 @@ dependencies:
     - entity_reference_revisions
     - node
     - paragraphs
+  enforced:
+    module:
+      - resume_builder
 id: node.field_work_history
 field_name: field_work_history
 entity_type: node

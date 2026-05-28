@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - paragraphs
+  enforced:
+    module:
+      - resume_builder
 id: paragraph.field_company_name
 field_name: field_company_name
 entity_type: paragraph

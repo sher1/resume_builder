@@ -13,6 +13,9 @@ dependencies:
     - layout_builder_restrictions
     - paragraphs
     - text
+  enforced:
+    module:
+      - resume_builder
 id: node.resume.default
 targetEntityType: node
 bundle: resume

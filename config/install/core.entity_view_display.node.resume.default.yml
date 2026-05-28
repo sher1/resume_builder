@@ -7,6 +7,9 @@ dependencies:
   module:
     - layout_builder
     - layout_builder_restrictions
+  enforced:
+    module:
+      - resume_builder
 id: node.resume.default
 targetEntityType: node
 bundle: resume

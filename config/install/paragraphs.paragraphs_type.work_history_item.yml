@@ -1,8 +1,12 @@
 langcode: en
 status: true
-dependencies: {}
+dependencies:
+  enforced:
+    module:
+      - resume_builder
 id: work_history_item
 label: 'Work History Item'
 icon_uuid: null
+icon_default: 'paragraph'
 description: 'A paired grouping containing company names, date boundaries, and job tasks.'
 behavior_plugins: {}

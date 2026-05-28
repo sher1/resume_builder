@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - resume_builder
 id: node.field_skills
 field_name: field_skills
 entity_type: node

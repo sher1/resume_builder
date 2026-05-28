@@ -4,6 +4,9 @@ dependencies:
   module:
     - node
     - text
+  enforced:
+    module:
+      - resume_builder
 id: node.field_education
 field_name: field_education
 entity_type: node

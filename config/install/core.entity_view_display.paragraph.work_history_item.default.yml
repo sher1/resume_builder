@@ -5,6 +5,9 @@ dependencies:
     - field.field.paragraph.work_history_item.field_company_name
     - field.field.paragraph.work_history_item.field_employment_dates
     - field.field.paragraph.work_history_item.field_job_description
+  enforced:
+    module:
+      - resume_builder
 id: paragraph.work_history_item.default
 targetEntityType: paragraph
 bundle: work_history_item

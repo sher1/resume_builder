@@ -4,6 +4,9 @@ dependencies:
   module:
     - paragraphs
     - text
+  enforced:
+    module:
+      - resume_builder
 id: paragraph.field_job_description
 field_name: field_job_description
 entity_type: paragraph
